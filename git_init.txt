@@ -1,0 +1,55 @@
+
+1. Schritt 
+in der Datei gitconfig 
+
+[init]
+	defaultBranch = main
+
+von master in main ändern
+
+alternativ 
+
+git config --global init.defaultBranch main
+
+
+git config --global user.name "Thomas-DJ9ZZZ"
+git config --global user.email tom.gem74@gmail.com
+
+
+
+
+
+wechsel in das projekt verzeichnis 
+
+D:
+cd D:\KiCAD7\# Projekte\DRA818_TX_RX_Platine
+
+git init --initial-branch=main
+
+git status
+
+git add .  
+
+git commit -m "Erster Commit DORI TX RX Platine Testumgebung SVX-Link"
+
+ git remote add origin https://github.com/thomas-dj9zzz/DORI_Relais.git
+
+
+git push -u origin main
+
+dann zukünftig 
+
+git push
+
+git pull
+
+git clone  https://github.com/thomas-dj9zzz/DORI_Relais.git
+
+  git init
+  git add README.md
+  git commit -m "first commit"
+  git branch -M main
+  git remote add origin https://github.com/thomas-dj9zzz/test.git
+  git push -u origin main
+  
+  
