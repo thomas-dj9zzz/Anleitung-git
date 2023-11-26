@@ -6,3 +6,4 @@
 5. Schritt git add . (alle Dateien und Ordner hinzufügen zum git)
 6. Schritt git commit -m "Aussagekräftige Message zum derzeitigen Stand des Commit"
 7. Schritt git push 
+8. test
